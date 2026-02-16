@@ -1,0 +1,83 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Questions",
+            "name": "questions",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Answers",
+            "name": "answers",
+            "kind": "Grouping"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "for": {
+                        "in": "questions"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 1000
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "table": {
+                "rows": {
+                    "for": {
+                        "in": "answers"
+                    }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "chatSettings": {
+            "displayName": "Chat Settings",
+            "properties": {
+                "headerColor": {
+                    "displayName": "Header Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "userMessageColor": {
+                    "displayName": "User Message Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "botMessageColor": {
+                    "displayName": "Bot Message Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "fontSize": {
+                    "displayName": "Font Size",
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        }
+    },
+    "privileges": []
+}

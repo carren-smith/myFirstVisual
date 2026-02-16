@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+.tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI
+*.pbiviz
+packages/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Certificate
+*.pfx
+*.pem

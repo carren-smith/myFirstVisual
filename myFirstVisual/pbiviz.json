@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "ChatVisual",
+        "displayName": "ABI Chat",
+        "guid": "ChatVisual_1234567890",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "A chat interface for Q&A interactions",
+        "supportUrl": "",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "5.6.0",
+    "author": {
+        "name": "",
+        "email": ""
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": [],
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

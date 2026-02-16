@@ -1,0 +1,23 @@
+{
+ "name": "powerbi-chat-visual",
+ "version": "1.0.0",
+ "description": "A chat interface custom visual for Power BI",
+ "main": "index.js",
+ "scripts": {
+  "build": "pbiviz package",
+  "start": "pbiviz start"
+ },
+ "author": "",
+ "license": "MIT",
+ "devDependencies": {
+  "@types/d3": "^7.4.0",
+  "powerbi-visuals-api": "~5.6.0",
+  "powerbi-visuals-tools": "^5.0.0",
+  "powerbi-visuals-utils-dataviewutils": "^3.0.0",
+  "powerbi-visuals-utils-formattingutils": "^5.0.0",
+  "powerbi-visuals-utils-typeutils": "^3.0.0"
+ },
+ "dependencies": {
+  "powerbi-visuals-utils-formattingmodel": "^6.2.2"
+ }
+}
